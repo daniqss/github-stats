@@ -88,6 +88,15 @@ For more information on inaccuracies, see issue
    - To ignore certain repos, add them (in owner/name format e.g.,
      `jstrieb/github-stats`) separated by commas to a new secret—created as
      before—called `EXCLUDED`.
+     ```
+     daniqss/se
+     daniqss/dotfiles
+     daniqss/notes
+     daniqss/codee-graph-generator
+     daniqss/SO_p2
+     daniqss/SO_p1
+     daniqss/SO_p0
+     ```
    - To ignore certain languages, add them (separated by commas) to a new
      secret called `EXCLUDED_LANGS`. For example, to exclude HTML and TeX you
      could set the value to `html,tex`.
